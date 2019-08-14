@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Netgo_Groupchangenotification>
+            <version>0.0.1</version>
+        </Netgo_Groupchangenotification>
+    </modules>
+    <global>
+        <models>
+            <netgo_groupchangenotification>
+                <class>Netgo_Groupchangenotification_Model</class>
+            </netgo_groupchangenotification>
+        </models>
+	<template>
+        <email>
+            <group_change_template>
+                <label>Group Change Template</label>
+                <file>group_change_template.html</file>
+                <type>html</type>
+            </group_change_template>
+        </email>
+    </template>
+
+    <helpers>
+      <groupchangenotification>
+        <class>Netgo_Groupchangenotification_Helper</class>
+      </groupchangenotification>
+    </helpers>
+
+    </global>
+    <adminhtml>
+        <events>
+            <customer_save_after><!-- observe the event -->
+                <observers>
+                    <netgo_groupchangenotification>
+                        <class>netgo_groupchangenotification/observer</class>
+                        <method>changeGroup</method>
+                    </netgo_groupchangenotification>
+                </observers>
+            </customer_save_after>
+        </events>
+    </adminhtml>
+</config>

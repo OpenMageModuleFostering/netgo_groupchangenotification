@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+		<Netgo_Groupchangenotification>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Netgo_Groupchangenotification>
+	</modules>
+</config>

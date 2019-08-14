@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package>
+    <name>Netgo_Groupchangenotification</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>This extension helps to send mail to customers when ever their group will be changed by admin.</summary>
+    <description>This extension sends mail to customers when ever admin will change their group. This extension has solved the problem to write manual email and send it to each individual customers. There is no need to write manual email by admin. &#xD;
+&#xD;
+This extension automatically notify customers about changing their group when admin will change their group.</description>
+    <notes>First Preview Release</notes>
+    <authors><author><name>NetGo</name><user>NetGo</user><email>netattingomails@gmail.com</email></author></authors>
+    <date>2015-10-05</date>
+    <time>06:30:51</time>
+    <contents><target name="magecommunity"><dir name="Netgo"><dir name="Groupchangenotification"><dir name="Helper"><file name="Data.php" hash="c6db6eb3ebc374e4f5ff7330e272cf5b"/></dir><dir name="Model"><file name="Observer.php" hash="d39153135ebfe1787dddf4e0f321df33"/></dir><dir name="etc"><file name="adminhtml.xml" hash="debd5bb70ed029962bcc22bf1054cbb1"/><file name="config.xml" hash="eebae8b09a805130d4e962215a2ea734"/><file name="system.xml" hash="cc7746bf84eee3bbd21dd38b50a5564a"/></dir></dir></dir></target><target name="magelocale"><dir name="en_US"><dir name="template"><dir name="email"><file name="group_change_template.html" hash="bc75367d82ee5cea352632e8889d05e6"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Netgo_Groupchangenotification.xml" hash="17ecaa9983f4e1d44c0cd33b3eff2ca5"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>6.0.0</max></php></required></dependencies>
+</package>
