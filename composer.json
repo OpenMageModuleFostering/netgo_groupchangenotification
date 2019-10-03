@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Netgo_Groupchangenotification",
+    "name": "OpenMageModuleFostering\/Netgo_Groupchangenotification",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "This extension helps to send mail to customers when ever their group will be changed by admin.",
     "authors": [
-    {
-        "name": "NetGo",
-        "email": "netattingomails@gmail.com"
-    }
-],
+        {
+            "name": "NetGo",
+            "email": "netattingomails@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
