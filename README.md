@@ -1,3 +1,5 @@
+
+
 ## Original Package Description
 
 This extension helps to send mail to customers when ever their group will be changed by admin.
